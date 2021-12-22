@@ -12,12 +12,8 @@ import java.util.List;
 
 public class WordItemAdapter extends RecyclerView.Adapter<WordItemAdapter.ViewHolder> {
     private List<WordItem> wordItemData;
-    private LayoutInflater inflater;
-    private Context context;
 
-    public WordItemAdapter(List<WordItem> itemList, Context context) {
-        this.inflater = LayoutInflater.from(context);
-        this.context = context;
+    public WordItemAdapter(List<WordItem> itemList) {
         this.wordItemData = itemList;
     }
 
@@ -26,7 +22,7 @@ public class WordItemAdapter extends RecyclerView.Adapter<WordItemAdapter.ViewHo
 
     @Override
     public WordItemAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = inflater.inflate(R.layout.item_view, null);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_view, parent, false);
         return new WordItemAdapter.ViewHolder(view);
     }
     @Override
