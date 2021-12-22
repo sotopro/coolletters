@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words">
+        <item>avocado</item>
+        <item>about</item>
+        <item>automobile</item>
+        <item>book</item>
+        <item>brief</item>
+        <item>camera</item>
+        <item>city</item>
+        <item>data</item>
+        <item>eat</item>
+        <item>fail</item>
+        <item>fox</item>
+        <item>goal</item>
+        <item>help</item>
+        <item>incomplete</item>
+        <item>january</item>
+        <item>kangaroo</item>
+        <item>last</item>
+        <item>magazine</item>
+        <item>need</item>
+        <item>octopus</item>
+        <item>puppy</item>
+        <item>quality</item>
+        <item>read</item>
+        <item>service</item>
+        <item>taxi</item>
+        <item>unicorn</item>
+        <item>value</item>
+        <item>winter</item>
+        <item>xerox</item>
+        <item>your</item>
+        <item>zero</item>
+    </string-array>
+</resources>
